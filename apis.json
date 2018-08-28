@@ -1,0 +1,109 @@
+{
+	"name": "Streadata.io API Gallery - GPS",
+	"description": "This is a repository of gps APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/gps.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://gps.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "MapQuest",
+			"x-api-slug": "mapquest",
+			"description": "Official MapQuest website, find driving directions, maps, live traffic updates and road conditions.  Find nearby businesses, restaurants and hotels. Explore!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/365-mapquest.jpg",
+			"humanURL": "http://mapquest.com",
+			"baseURL": "https://www.mapquestapi.com//",
+			"tags": "GPS",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/gps/master/_listings/mapquest/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Sprint Dev Program",
+			"x-api-slug": "sprint-dev-program",
+			"description": "Shop for cell phones & wireless calling plans from Sprint. Switch to Sprint today and find great deals on unlimited data plans for the whole family.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/658-sprint-dev-program.jpg",
+			"humanURL": "http://developer.sprint.com/dynamicContent/sprintservices/devtools/6",
+			"baseURL": "https:///",
+			"tags": "GPS",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/gps/master/_listings/sprint-dev-program/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Verizon | VDC  ",
+			"x-api-slug": "verizon--vdc--",
+			"description": "Explore Verizons full selection small and medium business solutions including FiOS, high speed internet, phone, and TV service.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/668-verizon-|-vdc--.jpg",
+			"humanURL": "http://developer.verizon.com/content/vdc/en/verizon-tools-apis/verizon_apis/navbuilder-inside-sdk/verizon-toolsandapis-NBI-tech-resources/verizon-nbi-vznavigator-api.html",
+			"baseURL": "https:///",
+			"tags": "GPS",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/gps/master/_listings/verizon--vdc--/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "WallaBee Devs",
+			"x-api-slug": "wallabee-devs",
+			"description": "WallaBee is the ultimate collectibles game for your iPhone.The aim of the game is to complete sets by collecting items in a variety of ways. Each item and set is uniquely numbered so you&#8217;ll need to be quick if you want to beat your friends to the lowest numbers.Players &#8216;forage&#8217; at real world locations to find over 400 uniquely designed items to add to their collections, sometimes finding a real world version of it&#8217;s virtual counterpart through a number of partnerships. Players can find items at places, buy items from store using the in games currency &#8216;honeycombs&#8217;, create items by mixing other items together, trade items with friends or drop and swap at meetups.WallaBee is the first game to support Apple&#8217;s Passbook, and can incorporate scannable passes into partner items that players can redeem at participating locations. In June 2012, WallaBee was selected as &#8216;The Best European Gaming Startup&#8217; as part of the Startup 2.0 contest at Nonick 2012. Currently on iOS and coming soon to Windows Phone 8.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1213_logo.png",
+			"humanURL": "http://wallab.ee/developers/",
+			"baseURL": "https:///",
+			"tags": "GPS",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/gps/master/_listings/wallabee-devs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Coord",
+			"x-api-slug": "coord",
+			"description": "Coord is a mobility company that creates seamless mobility and self-driving experiences today through deep integrations. The company offers bike-share API, Curbs API, Tolls API, Routing API and etc.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coord-logo.png",
+			"humanURL": "https://coord.co",
+			"baseURL": "https://api.coord.co//v1/users",
+			"tags": "GPS",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/gps/master/_listings/coord/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "GPS",
+	"include": [
+		{
+			"name": "MapQuest",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/gps/master/_listings/mapquest/apis.yaml"
+		},
+		{
+			"name": "Sprint Dev Program",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/gps/master/_listings/sprint-dev-program/apis.yaml"
+		},
+		{
+			"name": "Verizon | VDC  ",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/gps/master/_listings/verizon--vdc--/apis.yaml"
+		},
+		{
+			"name": "WallaBee Devs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/gps/master/_listings/wallabee-devs/apis.yaml"
+		},
+		{
+			"name": "Coord",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/gps/master/_listings/coord/apis.yaml"
+		}
+	]
+}
